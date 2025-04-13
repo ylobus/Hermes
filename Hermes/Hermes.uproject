@@ -1,0 +1,67 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.5",
+	"Category": "",
+	"Description": "",
+	"DisableEnginePluginsByDefault": true,
+	"Modules": [
+		{
+			"Name": "Hermes",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PluginBrowser",
+			"Enabled": true
+		},
+		{
+			"Name": "EngineAssetDefinitions",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserFileDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserAssetDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserClassDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "ContentBrowserAliasDataSource",
+			"Enabled": true
+		},
+		{
+			"Name": "PropertyAccessNode",
+			"Enabled": true
+		},
+		{
+			"Name": "TextureFormatOodle",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "ACLPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "GitSourceControl",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Windows"
+	]
+}
